@@ -1,0 +1,155 @@
+@import "../../node_modules/@blueprintjs/core/dist/blueprint.css";
+
+#root {
+    margin: 0;
+    padding: 0;
+    /*background: url("../imgs/test.png");*/
+    /*background-position: 0 563px;*/
+    width: 900px;
+    height: 1126px;
+    border: 1px solid green;
+}
+
+.register-form {
+    width: 370px;
+    margin: 13px 15px 0;
+    font-size: 13pt;
+    color: #4a4a4a;
+    height: 563px;
+    font-family: sans-serif;
+}
+.register-form header {
+    text-align: center;
+    padding-bottom: 37px;
+}
+.form-field_phone {
+    margin-left: -1px; /* WTF? Probably error in image */
+    margin-top: 95px; /* Looks like design error too - a lot of unused space */
+}
+.register-form .form-field_phone .phone-input-wrapper {
+    display: inline-flex;
+    width: 298px;
+    border: solid 1px #c8c8c8;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 15pt;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.register-form .form-field_phone .phone-input-wrapper>span{
+    padding: 10px 0 0 12px;
+}
+.register-form .form-field_phone.pt-form-group input{
+    flex:1;
+    border: none;
+    font-size: 15pt;
+    font-weight: lighter;
+    font-family: sans-serif;
+    height: 40px;
+}
+.register-form .form-field_phone.pt-form-group input::placeholder{
+    color: #d3d3d3;
+    font-size: 15pt;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.form-field_phone button {
+    height: 44px;
+    width: 75px;
+    text-align: center;
+    color: #bfbfbf;
+}
+.form-field_phone button .flag-icon {
+    width: 26px;
+    height: 20px;
+    display: inline-block;
+    border: solid 1px #dddddd;
+    margin-top: -3px;
+    margin-right: -3px;
+}
+.form-field_phone button .no-flag {
+    padding-right: 6px;
+}
+
+.register-form .pt-form-group {
+    display: inline-block;
+    text-align: left;
+}
+.pt-form-group {
+    margin-bottom: 19px;
+}
+.register-form .pt-form-group .pt-form-content {
+    padding-top: 4px;
+}
+.register-form .pt-form-group input {
+    height: 44px;
+    border-radius: 4px;
+    border: solid 1px #4a4a4a;
+    font-size: 12pt;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.register-form .pt-form-group input:focus,
+.register-form .pt-form-group input:active {
+    border-color: #087ffd;
+    outline: none;
+}
+.register-form .pt-form-group label {
+    font-variant: all-small-caps;
+    font-size: 14pt;
+    color: #aaaaaa;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.form-field_firstName input, .form-field_lastName input{
+    width: 180px;
+}
+.register-form .pt-form-group.form-field_firstName {
+    margin-right: 10px;
+}
+.form-field_lastName input {
+    padding-left: 15px;
+}
+.form-field_profession {
+    margin-left: -1px; /* WTF? Probably error in image */
+}
+.pt-form-group.form-field_profession input {
+    width: 372px;
+}
+.suggest_profession {
+    margin-top: -5px;
+    width: 372px;
+    border: solid 1px #4a4a4a;
+    border-top: none;
+    border-radius: 0 0 7px 7px;
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    box-shadow: none;
+}
+.suggest_profession .pt-popover-arrow {
+    display: none;
+}
+.suggest_profession input {
+    box-shadow: none;
+}
+.suggest_profession .pt-popover-content {
+    border-radius: 0 0 7px 7px;
+}
+.suggest_profession .pt-menu li {
+    height: 37px;
+}
+.register-button-wrapper {
+    text-align: center;
+    margin-top: 22px;
+    width: 100%;
+}
+.register-button-wrapper .pt-button.pt-intent-primary {
+    background: #087ffd !important;
+    font-weight: lighter;
+    outline: none;
+    box-shadow: none;
+    border: transparent 1px;
+    border-radius: 4px;
+    padding: 7px 26px;
+}

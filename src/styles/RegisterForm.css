@@ -1,15 +1,5 @@
 @import "../../node_modules/@blueprintjs/core/dist/blueprint.css";
 
-#root {
-    margin: 0;
-    padding: 0;
-    /*background: url("../imgs/test.png");*/
-    /*background-position: 0 563px;*/
-    width: 900px;
-    height: 1126px;
-    border: 1px solid green;
-}
-
 .register-form {
     width: 370px;
     margin: 13px 15px 0;
@@ -37,7 +27,7 @@
     font-family: sans-serif;
 }
 .register-form .form-field_phone .phone-input-wrapper>span{
-    padding: 10px 0 0 12px;
+    padding: 8px 0 0 12px;
 }
 .register-form .form-field_phone.pt-form-group input{
     flex:1;
